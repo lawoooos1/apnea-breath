@@ -96,4 +96,4 @@ for x in range(cycle, 0, -1):
 total_session = (inhale_time + hold_time + exhale) * (cycle)
 seconds = total_session % 60
 minutes = total_session // 60 
-print(f"you have completed a {minutes:02}:{seconds:02} session in {cycle} cycles, well done :) ")# apnea-breath
+print(f"you have completed a {minutes:02}:{seconds:02} session in {cycle} cycles, well done :) ")
